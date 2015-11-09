@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    120013,       2505]
-NotebookOptionsPosition[    118371,       2441]
-NotebookOutlinePosition[    118748,       2458]
-CellTagsIndexPosition[    118705,       2455]
+NotebookDataLength[    122028,       2567]
+NotebookOptionsPosition[    120267,       2499]
+NotebookOutlinePosition[    120644,       2516]
+CellTagsIndexPosition[    120601,       2513]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -165,31 +165,30 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"ChemicalData", "[", 
-  RowBox[{"\"\<CarbonDioxide\>\"", ",", "\"\<MoleculePlot\>\""}], 
-  "]"}]], "Input",
+  RowBox[{"\"\<Water\>\"", ",", "\"\<MoleculePlot\>\""}], "]"}]], "Input",
  CellChangeTimes->{{3.656017765873357*^9, 3.656017767176415*^9}, {
   3.656018096744693*^9, 3.6560181067989693`*^9}, {3.6560183318510513`*^9, 
-  3.656018333267342*^9}}],
+  3.656018333267342*^9}, {3.656029284739992*^9, 3.656029285633883*^9}}],
 
 Cell[BoxData[
  Graphics3DBox[
   {AbsoluteThickness[3], EdgeForm[None], Specularity[
     GrayLevel[1], 100], 
-   GraphicsComplex3DBox[{{373.21, 50., 0.}, {200., -50., 0.}, {286.6, 0., 
-    0.}, {329.905, 25., 0.}, {243.3, -25., 0.}}, {
-     {RGBColor[0.4, 0.4, 0.4], SphereBox[3, 34.]}, 
-     {RGBColor[0.800498, 0.201504, 0.192061], SphereBox[1, 31.], 
-      SphereBox[2, 31.]}, 
-     {RGBColor[0.4, 0.4, 0.4], CylinderBox[{4, 3}, 15.], 
+   GraphicsComplex3DBox[{{-6.3259, -25.268, 26.21}, {74.277, 26.059, 
+    17.009}, {-67.951, -0.79118, -43.219}, {33.975550000000005`, 
+    0.3954999999999984, 21.6095}, {-37.13845, -13.02959, -8.5045}}, {
+     {RGBColor[0.65, 0.7, 0.7], SphereBox[2, 24.], SphereBox[3, 24.]}, 
+     {RGBColor[0.800498, 0.201504, 0.192061], SphereBox[1, 31.]}, 
+     {RGBColor[0.65, 0.7, 0.7], CylinderBox[{4, 2}, 15.], 
       CylinderBox[{5, 3}, 15.]}, 
      {RGBColor[0.800498, 0.201504, 0.192061], CylinderBox[{1, 4}, 15.], 
-      CylinderBox[{2, 5}, 15.]}}]},
+      CylinderBox[{1, 5}, 15.]}}]},
   Boxed->False,
-  ImageSize->138.23932721685225`,
+  ImageSize->113.5998578539986,
   Lighting->"Neutral",
   ViewPoint->{1.3, -2.4, -2.}]], "Output",
  CellChangeTimes->{3.6560177678802357`*^9, 3.65601828682826*^9, 
-  3.656018393584979*^9}]
+  3.656018393584979*^9, 3.6560292864064617`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2437,6 +2436,65 @@ MSPa281f3ef7iie8hiig1300005ai5a85def6f959f&s=1", "version" -> "2.6"},
   Editable->False,
   SelectWithContents->True]], "Output",
  CellChangeTimes->{3.656028773557623*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"matA", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"3", ",", "2"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"7", ",", "5"}], "}"}]}], "}"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"matB", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"2", "x"}], "-", "1"}], ",", 
+       RowBox[{
+        RowBox[{"3", "x"}], "-", 
+        RowBox[{"2", "y"}], "-", "2"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"y", "-", "1"}], ",", "x"}], "}"}]}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"matC", " ", "=", " ", 
+   RowBox[{"matB", " ", "*", " ", 
+    RowBox[{"Inverse", "[", "matA", "]"}]}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"matR", " ", "=", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"21", ",", 
+       RowBox[{"-", "4"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"-", "1"}], ",", "11"}], "}"}]}], "}"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"matA", "+", "matB", " ", "+", " ", "matC"}], " ", "\[Equal]", 
+    " ", "matR"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "y"}], "}"}]}], "]"}], "\[IndentingNewLine]"}], "Input",\
+
+ CellChangeTimes->{{3.656037439201779*^9, 3.656037533269298*^9}, {
+  3.6560375937894382`*^9, 3.656037791343124*^9}, {3.656037825006401*^9, 
+  3.656037996726631*^9}, {3.656038122443969*^9, 3.656038259336588*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", "}"}]], "Output",
+ CellChangeTimes->{{3.6560379868890457`*^9, 3.656037994170106*^9}, {
+  3.656038173048623*^9, 3.656038260019597*^9}}]
 }, Open  ]]
 },
 WindowSize->{Full, Full},
@@ -2483,29 +2541,33 @@ Cell[4256, 150, 226, 7, 56, "Input"],
 Cell[4485, 159, 88, 1, 35, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4610, 165, 298, 6, 35, "Input"],
-Cell[4911, 173, 786, 18, 141, "Output"]
+Cell[4610, 165, 333, 5, 35, "Input"],
+Cell[4946, 172, 883, 18, 205, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[5734, 196, 163, 4, 36, "Input"],
-Cell[5900, 202, 489, 14, 191, "Output"]
+Cell[5866, 195, 163, 4, 36, "Input"],
+Cell[6032, 201, 489, 14, 191, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[6426, 221, 415, 9, 36, "Input"],
-Cell[6844, 232, 186, 3, 35, "Output"]
+Cell[6558, 220, 415, 9, 36, "Input"],
+Cell[6976, 231, 186, 3, 35, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[7067, 240, 330, 9, 36, "Input"],
-Cell[7400, 251, 533, 11, 29, "Message"],
-Cell[7936, 264, 225, 7, 35, "Output"]
+Cell[7199, 239, 330, 9, 36, "Input"],
+Cell[7532, 250, 533, 11, 29, "Message"],
+Cell[8068, 263, 225, 7, 35, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[8198, 276, 298, 8, 35, "Input"],
-Cell[8499, 286, 588, 20, 42, "Output"]
+Cell[8330, 275, 298, 8, 35, "Input"],
+Cell[8631, 285, 588, 20, 42, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[9124, 311, 170, 3, 36, "Input"],
-Cell[9297, 316, 109058, 2122, 3333, "Output"]
+Cell[9256, 310, 170, 3, 36, "Input"],
+Cell[9429, 315, 109058, 2122, 3299, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[118524, 2442, 1562, 49, 141, "Input"],
+Cell[120089, 2493, 162, 3, 35, "Output"]
 }, Open  ]]
 }
 ]

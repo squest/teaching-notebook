@@ -1,0 +1,2514 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    120013,       2505]
+NotebookOptionsPosition[    118371,       2441]
+NotebookOutlinePosition[    118748,       2458]
+CellTagsIndexPosition[    118705,       2455]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"True", " ", "and", " ", "True"}]], "Input",
+ CellChangeTimes->{{3.6560173075338373`*^9, 3.656017308915485*^9}, {
+  3.656017360476779*^9, 3.65601740788696*^9}}],
+
+Cell[BoxData[
+ RowBox[{"and", " ", 
+  SuperscriptBox["True", "2"]}]], "Output",
+ CellChangeTimes->{3.656017408528255*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"True", " ", "&&", " ", "True"}]], "Input",
+ CellChangeTimes->{{3.656017413085806*^9, 3.6560174202332573`*^9}}],
+
+Cell[BoxData["True"], "Output",
+ CellChangeTimes->{3.6560174213441*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{"{", " ", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"a", "*", 
+        RowBox[{"r", "^", "5"}]}], " ", "-", " ", 
+       RowBox[{"a", "*", 
+        RowBox[{"r", "^", "3"}]}]}], " ", "\[Equal]", " ", "4"}], ",", " ", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"a", "*", 
+        RowBox[{"r", "^", "3"}]}], "-", 
+       RowBox[{"a", "*", 
+        RowBox[{"r", "^", "2"}]}]}], " ", "\[Equal]", " ", 
+      RowBox[{"2", "/", "3"}]}]}], " ", "}"}], ",", " ", 
+   RowBox[{"a", "*", "r"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6560174717988167`*^9, 3.656017570271199*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Solve", "::", "ivar"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"\[NoBreak]\\!\\(a\\\\ r\\)\[NoBreak] is not a valid \
+variable. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/ivar\\\", ButtonNote -> \
+\\\"Solve::ivar\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{{3.656017562592944*^9, 3.656017570998261*^9}}],
+
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "a"}], " ", 
+        SuperscriptBox["r", "3"]}], "+", 
+       RowBox[{"a", " ", 
+        SuperscriptBox["r", "5"]}]}], "\[Equal]", "4"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "a"}], " ", 
+        SuperscriptBox["r", "2"]}], "+", 
+       RowBox[{"a", " ", 
+        SuperscriptBox["r", "3"]}]}], "\[Equal]", 
+      FractionBox["2", "3"]}]}], "}"}], ",", 
+   RowBox[{"a", " ", "r"}]}], "]"}]], "Output",
+ CellChangeTimes->{{3.656017513890427*^9, 3.656017571003408*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"a", "*", "r"}], " ", "-", " ", 
+       RowBox[{"a", "/", "r"}]}], " ", "\[Equal]", " ", "4"}], ",", " ", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"a", "/", "r"}], " ", "-", " ", 
+       RowBox[{"a", "/", 
+        RowBox[{"r", "^", "2"}]}]}], " ", "\[Equal]", " ", 
+      RowBox[{"2", "/", "3"}]}]}], "}"}], ",", " ", 
+   RowBox[{"{", "a", "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.656017628651855*^9, 3.656017689737069*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", "}"}]], "Output",
+ CellChangeTimes->{{3.656017683505947*^9, 3.656017690568473*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"20", "*", " ", 
+  RowBox[{"Cos", "[", 
+   RowBox[{"20", "*", 
+    RowBox[{"Pi", "/", "180"}]}], "]"}], "*", 
+  RowBox[{"Cos", "[", 
+   RowBox[{"80", "*", 
+    RowBox[{"Pi", "/", "180"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.656017727953061*^9, 3.656017789089775*^9}}],
+
+Cell[BoxData[
+ RowBox[{"20", " ", 
+  RowBox[{"Cos", "[", 
+   FractionBox["\[Pi]", "9"], "]"}], " ", 
+  RowBox[{"Sin", "[", 
+   FractionBox["\[Pi]", "18"], "]"}]}]], "Output",
+ CellChangeTimes->{3.6560177412026243`*^9, 3.6560177901169863`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"20", " ", 
+   RowBox[{"Cos", "[", 
+    FractionBox["\[Pi]", "9"], "]"}], " ", 
+   RowBox[{"Sin", "[", 
+    FractionBox["\[Pi]", "18"], "]"}]}], "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData["3.2635182233306965`"], "Output",
+ CellChangeTimes->{3.656017794594864*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ChemicalData", "[", 
+  RowBox[{"\"\<CarbonDioxide\>\"", ",", "\"\<MoleculePlot\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.656017765873357*^9, 3.656017767176415*^9}, {
+  3.656018096744693*^9, 3.6560181067989693`*^9}, {3.6560183318510513`*^9, 
+  3.656018333267342*^9}}],
+
+Cell[BoxData[
+ Graphics3DBox[
+  {AbsoluteThickness[3], EdgeForm[None], Specularity[
+    GrayLevel[1], 100], 
+   GraphicsComplex3DBox[{{373.21, 50., 0.}, {200., -50., 0.}, {286.6, 0., 
+    0.}, {329.905, 25., 0.}, {243.3, -25., 0.}}, {
+     {RGBColor[0.4, 0.4, 0.4], SphereBox[3, 34.]}, 
+     {RGBColor[0.800498, 0.201504, 0.192061], SphereBox[1, 31.], 
+      SphereBox[2, 31.]}, 
+     {RGBColor[0.4, 0.4, 0.4], CylinderBox[{4, 3}, 15.], 
+      CylinderBox[{5, 3}, 15.]}, 
+     {RGBColor[0.800498, 0.201504, 0.192061], CylinderBox[{1, 4}, 15.], 
+      CylinderBox[{2, 5}, 15.]}}]},
+  Boxed->False,
+  ImageSize->138.23932721685225`,
+  Lighting->"Neutral",
+  ViewPoint->{1.3, -2.4, -2.}]], "Output",
+ CellChangeTimes->{3.6560177678802357`*^9, 3.65601828682826*^9, 
+  3.656018393584979*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ChemicalData", "[", 
+  RowBox[{"\"\<CarbonDioxide\>\"", ",", "\"\<SpaceFillingMoleculePlot\>\""}], 
+  "]"}]], "Input",
+ NumberMarks->False],
+
+Cell[BoxData[
+ Graphics3DBox[{
+   {RGBColor[0.800498, 0.201504, 0.192061], 
+    SphereBox[{373.21, 50., 0.}, 152.]}, 
+   {RGBColor[0.800498, 0.201504, 0.192061], 
+    SphereBox[{200., -50., 0.}, 152.]}, 
+   {GrayLevel[0.4], 
+    StyleBox[SphereBox[{286.6, 0., 0.}, 170.],
+     FontColor->GrayLevel[0.4]]}},
+  Boxed->False,
+  ImageSize->138.23932721685225`,
+  Lighting->"Neutral",
+  SphericalRegion->True,
+  ViewPoint->{1.3, -2.4, -2.}]], "Output",
+ CellChangeTimes->{3.656022563746595*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{"20", "*", 
+   RowBox[{"Cos", "[", 
+    RowBox[{"20", "Degree"}], "]"}], "*", 
+   RowBox[{"Cos", "[", 
+    RowBox[{"80", "Degree"}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6560225635893307`*^9, 3.6560225851213007`*^9}, {
+  3.656022620882444*^9, 3.656022651556077*^9}, {3.6560226860770197`*^9, 
+  3.656022734186*^9}, {3.656022787602881*^9, 3.656022846003439*^9}}],
+
+Cell[BoxData["3.2635182233306965`"], "Output",
+ CellChangeTimes->{
+  3.656022652443782*^9, {3.656022688220759*^9, 3.656022735059743*^9}, {
+   3.656022792723309*^9, 3.65602284661022*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"x", "-", "1"}], ")"}], "^", "2"}], " ", "\[Equal]", " ", 
+    RowBox[{"Sqrt", "[", 
+     RowBox[{"x", "-", "1"}], "]"}]}], ",", " ", "x"}], "]"}]], "Input",
+ CellChangeTimes->{{3.656028674946409*^9, 3.656028699685112*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"Solve", "::", "ifun"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Inverse functions are being used by \
+\[NoBreak]\\!\\(Solve\\)\[NoBreak], so some solutions may not be found; use \
+Reduce for complete solution information. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/Solve/ifun\\\", ButtonNote -> \
+\\\"Solve::ifun\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6560287004579983`*^9}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"x", "\[Rule]", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", "\[Rule]", "2"}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.656028700459238*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{"x", "-", "1"}], ")"}], "^", "4"}], " ", "\[Equal]", " ", 
+    RowBox[{"x", "-", "1"}]}], ",", " ", "x"}], "]"}]], "Input",
+ CellChangeTimes->{{3.656028717724015*^9, 3.6560287326210337`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"x", "\[Rule]", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", "\[Rule]", "2"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", "\[Rule]", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"-", "1"}], ")"}], 
+      RowBox[{"1", "/", "3"}]]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", "\[Rule]", 
+     RowBox[{"-", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"-", "1"}], ")"}], 
+       RowBox[{"2", "/", "3"}]]}]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.656028733434791*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"WolframAlpha", "[", "\"\<Solve[(x-1)^2 == Sqrt[x-1],x]\>\"", 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.656028741842507*^9, 3.656028765392432*^9}}],
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryResults",
+  DynamicModuleBox[{Typeset`q$$ = "Solve[(x-1)^2 == Sqrt[x-1],x]", 
+   Typeset`opts$$ = {
+   AppearanceElements -> {
+     "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+      "Sources"}, PodStates -> {"Result__Step-by-step solution"}}, 
+   Typeset`elements$$ = {
+   "Warnings", "Assumptions", "Brand", "Pods", "PodMenus", "Unsuccessful", 
+    "Sources"}, Typeset`pod1$$ = XMLElement[
+   "pod", {"title" -> "Input interpretation", "scanner" -> "Identity", "id" -> 
+     "Input", "position" -> "100", "error" -> "false", "numsubpods" -> "1"}, {
+    
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["minput", {}, {"Solve[(-1 + x)^2 == Sqrt[-1 + x], x]"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             TagBox[
+              GridBox[{{
+                 PaneBox[
+                  StyleBox[
+                   TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    "\"solve\"", {
+                    LineIndent -> 0, LineSpacing -> {0.9, 0, 1.5}}], 
+                    TagBox[
+                    RowBox[{
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"x", "-", "1"}], ")"}], "2"], "\[LongEqual]", 
+                    TagBox[
+                    SqrtBox[
+                    RowBox[{"x", "-", "1"}]], Identity]}], HoldForm], 
+                    StyleBox["\" for \"", {
+                    GrayLevel[0.6], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False], "x"}}, 
+                    GridBoxBackground -> {"Columns" -> {
+                    GrayLevel[0.949], None, None, None}, "Rows" -> {{None}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    ColumnsEqual -> False, RowsEqual -> False, 
+                    GridBoxDividers -> {"Columns" -> {
+                    GrayLevel[0.84], 
+                    GrayLevel[0.84], 
+                    GrayLevel[0.84], 
+                    GrayLevel[0.84], 
+                    GrayLevel[0.84]}, "Rows" -> {{
+                    GrayLevel[0.84]}}, 
+                    "RowsIndexed" -> {
+                    1 -> GrayLevel[0.84], -1 -> GrayLevel[0.84]}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {2, 2, 2, 2, 2}, "Rows" -> {{1}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
+                    AllowScriptLevelChange -> False, BaselinePosition -> 1], 
+                    $CellContext`TagBoxWrapper["Separator" -> " "]], 
+                   LineSpacing -> {1, 0, 1.5}, LineIndent -> 0], 
+                  BaselinePosition -> Center]}}, 
+               GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               ColumnsEqual -> False, RowsEqual -> False, 
+               GridBoxSpacings -> {"Columns" -> {{
+                    AbsoluteThickness[-1]}}, "Rows" -> {{0}}}, 
+               AllowScriptLevelChange -> False], 
+              $CellContext`TagBoxWrapper["Separator" -> " "]], 
+             PolynomialForm[#, TraditionalOrder -> False]& ], 
+            TraditionalForm]], "Output", {}]}], 
+       XMLElement["dataformats", {}, {"plaintext,minput"}]}]}], 
+   Typeset`pod2$$ = XMLElement[
+   "pod", {"title" -> "Results", "scanner" -> "Solve", "id" -> "Result", 
+     "position" -> "100", "error" -> "false", "numsubpods" -> "3", "primary" -> 
+     "true"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["minput", {}, {"Reduce[(-1 + x)^2 == Sqrt[-1 + x], x]"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            RowBox[{"x", "\[LongEqual]", "1"}], TraditionalForm]], 
+          "Output", {}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,minput,moutput,computabledata,formatteddata,formuladata"}]}\
+], 
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["minput", {}, {"Reduce[(-1 + x)^2 == Sqrt[-1 + x], x]"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            RowBox[{"x", "\[LongEqual]", "2"}], TraditionalForm]], 
+          "Output", {}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,minput,moutput,computabledata,formatteddata,formuladata"}]}\
+], 
+     XMLElement["subpod", {"title" -> "Possible intermediate steps"}, {
+       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             GridBox[{{
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    TemplateBox[{
+                    FormBox[
+                    TagBox[
+                    FormBox[
+                    TemplateBox[{"\"Solve for \"", "x"}, "RowDefault"], 
+                    TraditionalForm], Format[#, TraditionalForm]& ], 
+                    TraditionalForm]}, "RowDefault"], "\":\""}, 
+                    "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    TemplateBox[{
+                    TagBox[
+                    RowBox[{
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm], ")"}], "2"], 
+                    "\[LongEqual]", 
+                    SqrtBox[
+                    TagBox[
+                    TagBox[
+                    FormBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox["x", HoldForm], "-", "1"}], HoldForm], 
+                    TraditionalForm], DisplayForm], HoldForm]]}], HoldForm]}, 
+                    "RowDefault"], HoldForm]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                  GridBoxSpacings -> {
+                   "Columns" -> {{None}}, "Rows" -> {{0.5}}}], "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    TemplateBox[{
+                    RowBox[{
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm], ")"}], "2"], 
+                    "\[LongEqual]", 
+                    SqrtBox[
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm]]}], 
+                    "\" is equivalent to \"", 
+                    RowBox[{
+                    SqrtBox[
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm]], "\[LongEqual]", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm], ")"}], "2"]}]}, 
+                    "RowDefault"], "\":\""}, "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    SqrtBox[
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm]], "\[LongEqual]", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm], ")"}], "2"]}], 
+                    HoldForm], HoldForm], HoldForm]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    
+                    TemplateBox[{
+                    "\"Raise both sides to the power of \"", "\"two\""}, 
+                    "RowDefault"], "\":\""}, "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm], "\[LongEqual]", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm], ")"}], "4"]}], 
+                    HoldForm], HoldForm], HoldForm]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    
+                    TemplateBox[{
+                    "\"Expand out terms of the right hand side\""}, 
+                    "RowDefault"], "\":\""}, "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm], "\[LongEqual]", 
+                    TagBox[
+                    RowBox[{
+                    SuperscriptBox["x", "4"], "-", 
+                    RowBox[{"4", " ", 
+                    SuperscriptBox["x", "3"]}], "+", 
+                    RowBox[{"6", " ", 
+                    SuperscriptBox["x", "2"]}], "-", 
+                    RowBox[{"4", " ", "x"}], "+", "1"}], HoldForm]}], 
+                    HoldForm], HoldForm], HoldForm]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    TemplateBox[{"\"Subtract \"", 
+                    TagBox[
+                    RowBox[{
+                    SuperscriptBox["x", "4"], "-", 
+                    RowBox[{"4", " ", 
+                    SuperscriptBox["x", "3"]}], "+", 
+                    RowBox[{"6", " ", 
+                    SuperscriptBox["x", "2"]}], "-", 
+                    RowBox[{"4", " ", "x"}], "+", "1"}], HoldForm], 
+                    "\" from both sides\""}, "RowDefault"], "\":\""}, 
+                    "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{
+                    RowBox[{"-", 
+                    SuperscriptBox["x", "4"]}], "+", 
+                    RowBox[{"4", " ", 
+                    SuperscriptBox["x", "3"]}], "-", 
+                    RowBox[{"6", " ", 
+                    SuperscriptBox["x", "2"]}], "+", 
+                    RowBox[{"5", " ", "x"}], "-", "2"}], HoldForm], 
+                    "\[LongEqual]", "0"}], HoldForm], HoldForm], HoldForm]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    
+                    TemplateBox[{
+                    "\"The left hand side factors into a product with \"", 
+                    "\"four\"", "\" terms\""}, "RowDefault"], "\":\""}, 
+                    "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", 
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"x", "-", "2"}], HoldForm], ")"}]}], " ", 
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm], ")"}], " ", 
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{
+                    SuperscriptBox["x", "2"], "-", "x", "+", "1"}], HoldForm],
+                     ")"}]}], "\[LongEqual]", "0"}], HoldForm], HoldForm], 
+                    HoldForm]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    TemplateBox[{"\"Multiply both sides by \"", 
+                    RowBox[{"-", "1"}]}, "RowDefault"], "\":\""}, 
+                    "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    TagBox[
+                    TagBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"x", "-", "2"}], HoldForm], ")"}], " ", 
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm], ")"}], " ", 
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{
+                    SuperscriptBox["x", "2"], "-", "x", "+", "1"}], HoldForm],
+                     ")"}]}], "\[LongEqual]", "0"}], HoldForm], HoldForm], 
+                    HoldForm]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    
+                    TemplateBox[{
+                    "\"Split into \"", "\"three\"", "\" equations\""}, 
+                    "RowDefault"], "\":\""}, "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    TagBox[
+                    TemplateBox[{
+                    StyleBox["\" or \"", 
+                    GrayLevel[0.7], StripOnInput -> False], 
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{"x", "-", "2"}], HoldForm], "\[LongEqual]", "0"}],
+                     HoldForm], 
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm], "\[LongEqual]", "0"}],
+                     HoldForm], 
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{
+                    SuperscriptBox["x", "2"], "-", "x", "+", "1"}], HoldForm],
+                     "\[LongEqual]", "0"}], HoldForm]}, "RowWithSeparator"], 
+                    HoldForm], HoldForm]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    
+                    TemplateBox[{"\"Add \"", "2", "\" to both sides\""}, 
+                    "RowDefault"], "\":\""}, "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    TemplateBox[{
+                    StyleBox["\" or \"", 
+                    GrayLevel[0.7], StripOnInput -> False], 
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", "2"}], HoldForm]}}, 
+                    AutoDelete -> False, 
+                    GridBoxFrame -> {
+                    "ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> True}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    FrameStyle -> GrayLevel[0.7], AllowScriptLevelChange -> 
+                    False], "Grid"], 
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm], "\[LongEqual]", "0"}],
+                     HoldForm], 
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{
+                    SuperscriptBox["x", "2"], "-", "x", "+", "1"}], HoldForm],
+                     "\[LongEqual]", "0"}], HoldForm]}, "RowWithSeparator"], 
+                    HoldForm]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    
+                    TemplateBox[{"\"Add \"", "1", "\" to both sides\""}, 
+                    "RowDefault"], "\":\""}, "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    TemplateBox[{
+                    StyleBox["\" or \"", 
+                    GrayLevel[0.7], StripOnInput -> False], 
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", "2"}], HoldForm], 
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", "1"}], HoldForm]}}, 
+                    AutoDelete -> False, 
+                    GridBoxFrame -> {
+                    "ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> True}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    FrameStyle -> GrayLevel[0.7], AllowScriptLevelChange -> 
+                    False], "Grid"], 
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{
+                    SuperscriptBox["x", "2"], "-", "x", "+", "1"}], HoldForm],
+                     "\[LongEqual]", "0"}], HoldForm]}, "RowWithSeparator"], 
+                    HoldForm]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    
+                    TemplateBox[{
+                    "\"Subtract \"", "1", "\" from both sides\""}, 
+                    "RowDefault"], "\":\""}, "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    TemplateBox[{
+                    StyleBox["\" or \"", 
+                    GrayLevel[0.7], StripOnInput -> False], 
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", "2"}], HoldForm], 
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", "1"}], HoldForm], 
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{
+                    SuperscriptBox["x", "2"], "-", "x"}], HoldForm], 
+                    "\[LongEqual]", 
+                    RowBox[{"-", "1"}]}], HoldForm]}}, AutoDelete -> False, 
+                    GridBoxFrame -> {
+                    "ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> True}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    FrameStyle -> GrayLevel[0.7], AllowScriptLevelChange -> 
+                    False], "Grid"]}, "RowWithSeparator"], HoldForm]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    TemplateBox[{"\"Add \"", 
+                    FractionBox["1", "4"], "\" to both sides\""}, 
+                    "RowDefault"], "\":\""}, "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    TemplateBox[{
+                    StyleBox["\" or \"", 
+                    GrayLevel[0.7], StripOnInput -> False], 
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", "2"}], HoldForm], 
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", "1"}], HoldForm], 
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{
+                    SuperscriptBox["x", "2"], "-", "x", "+", 
+                    FractionBox["1", "4"]}], HoldForm], "\[LongEqual]", 
+                    RowBox[{"-", 
+                    FractionBox["3", "4"]}]}], HoldForm]}}, AutoDelete -> 
+                    False, GridBoxFrame -> {
+                    "ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> True}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    FrameStyle -> GrayLevel[0.7], AllowScriptLevelChange -> 
+                    False], "Grid"]}, "RowWithSeparator"], HoldForm]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    TemplateBox[{"\"Write the left hand side as a square\""}, 
+                    "RowDefault"], "\":\""}, "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    TemplateBox[{
+                    StyleBox["\" or \"", 
+                    GrayLevel[0.7], StripOnInput -> False], 
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", "2"}], HoldForm], 
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", "1"}], HoldForm], 
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    RowBox[{
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"x", "-", 
+                    FractionBox["1", "2"]}], HoldForm], ")"}], "2"], 
+                    "\[LongEqual]", 
+                    RowBox[{"-", 
+                    FractionBox["3", "4"]}]}], HoldForm]}}, AutoDelete -> 
+                    False, GridBoxFrame -> {
+                    "ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> True}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    FrameStyle -> GrayLevel[0.7], AllowScriptLevelChange -> 
+                    False], "Grid"]}, "RowWithSeparator"], HoldForm]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    
+                    TemplateBox[{"\"Take the square root of both sides\""}, 
+                    "RowDefault"], "\":\""}, "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    TemplateBox[{
+                    StyleBox["\" or \"", 
+                    GrayLevel[0.7], StripOnInput -> False], 
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", "2"}], HoldForm], 
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", "1"}], HoldForm], 
+                    TagBox[
+                    GridBox[{{
+                    TemplateBox[{
+                    StyleBox["\" or \"", 
+                    GrayLevel[0.7], StripOnInput -> False], 
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{"x", "-", 
+                    FractionBox["1", "2"]}], HoldForm], "\[LongEqual]", 
+                    FractionBox[
+                    RowBox[{"\[ImaginaryI]", " ", 
+                    SqrtBox["3"]}], "2"]}], HoldForm], 
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{"x", "-", 
+                    FractionBox["1", "2"]}], HoldForm], "\[LongEqual]", 
+                    RowBox[{"-", 
+                    FractionBox[
+                    RowBox[{"\[ImaginaryI]", " ", 
+                    SqrtBox["3"]}], "2"]}]}], HoldForm]}, 
+                    "RowWithSeparator"]}}, AutoDelete -> False, 
+                    GridBoxFrame -> {
+                    "ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> True}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    FrameStyle -> GrayLevel[0.7], AllowScriptLevelChange -> 
+                    False], "Grid"]}, "RowWithSeparator"], HoldForm]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    TemplateBox[{"\"Add \"", 
+                    FractionBox["1", "2"], "\" to both sides\""}, 
+                    "RowDefault"], "\":\""}, "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    TemplateBox[{
+                    StyleBox["\" or \"", 
+                    GrayLevel[0.7], StripOnInput -> False], 
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", "2"}], HoldForm], 
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", "1"}], HoldForm], 
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", 
+                    TagBox[
+                    RowBox[{
+                    FractionBox["1", "2"], "+", 
+                    FractionBox[
+                    RowBox[{"\[ImaginaryI]", " ", 
+                    SqrtBox[
+                    TagBox[
+                    TagBox["3", HoldForm], HoldForm]]}], "2"]}], HoldForm]}], 
+                    HoldForm]}}, AutoDelete -> False, 
+                    GridBoxFrame -> {
+                    "ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> True}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    FrameStyle -> GrayLevel[0.7], AllowScriptLevelChange -> 
+                    False], "Grid"], 
+                    TagBox[
+                    RowBox[{
+                    TagBox[
+                    RowBox[{"x", "-", 
+                    FractionBox["1", "2"]}], HoldForm], "\[LongEqual]", 
+                    RowBox[{"-", 
+                    FractionBox[
+                    RowBox[{"\[ImaginaryI]", " ", 
+                    SqrtBox["3"]}], "2"]}]}], HoldForm]}, "RowWithSeparator"],
+                     HoldForm]}}, GridBoxAlignment -> {"Columns" -> {{Left}}},
+                   AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    TemplateBox[{"\"Add \"", 
+                    FractionBox["1", "2"], "\" to both sides\""}, 
+                    "RowDefault"], "\":\""}, "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    TemplateBox[{
+                    StyleBox["\" or \"", 
+                    GrayLevel[0.7], StripOnInput -> False], 
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", "2"}], HoldForm], 
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", "1"}], HoldForm], 
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", 
+                    TagBox[
+                    RowBox[{
+                    FractionBox["1", "2"], "+", 
+                    FractionBox[
+                    RowBox[{"\[ImaginaryI]", " ", 
+                    SqrtBox[
+                    TagBox[
+                    TagBox["3", HoldForm], HoldForm]]}], "2"]}], HoldForm]}], 
+                    HoldForm], 
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", 
+                    TagBox[
+                    RowBox[{
+                    FractionBox["1", "2"], "-", 
+                    FractionBox[
+                    RowBox[{"\[ImaginaryI]", " ", 
+                    SqrtBox[
+                    TagBox[
+                    TagBox["3", HoldForm], HoldForm]]}], "2"]}], HoldForm]}], 
+                    HoldForm]}}, AutoDelete -> False, 
+                    GridBoxFrame -> {
+                    "ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> True}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    FrameStyle -> GrayLevel[0.7], AllowScriptLevelChange -> 
+                    False], "Grid"]}, "RowWithSeparator"], HoldForm]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    TemplateBox[{
+                    TagBox[
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm], ")"}], "2"], 
+                    HoldForm], "\" \[DoubleRightArrow] \"", 
+                    TagBox[
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"1", "-", "1"}], HoldForm], ")"}], "2"], 
+                    HoldForm], "\" \[LongEqual] \"", "0", 
+                    StyleBox["\"\\n\"", Large, StripOnInput -> False], 
+                    TagBox[
+                    SqrtBox[
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm]], HoldForm], 
+                    "\" \[DoubleRightArrow] \"", 
+                    TagBox[
+                    SqrtBox[
+                    TagBox[
+                    RowBox[{"1", "-", "1"}], HoldForm]], HoldForm], 
+                    "\" \[LongEqual] \"", "0"}, "RowDefault"], "\":\""}, 
+                    "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    
+                    TemplateBox[{"\"So this solution is correct\""}, 
+                    "RowDefault"], HoldForm]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    TemplateBox[{
+                    TagBox[
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm], ")"}], "2"], 
+                    HoldForm], "\" \[DoubleRightArrow] \"", 
+                    TagBox[
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"2", "-", "1"}], HoldForm], ")"}], "2"], 
+                    HoldForm], "\" \[LongEqual] \"", "1", 
+                    StyleBox["\"\\n\"", Large, StripOnInput -> False], 
+                    TagBox[
+                    SqrtBox[
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm]], HoldForm], 
+                    "\" \[DoubleRightArrow] \"", 
+                    TagBox[
+                    SqrtBox[
+                    TagBox[
+                    RowBox[{"2", "-", "1"}], HoldForm]], HoldForm], 
+                    "\" \[LongEqual] \"", "1"}, "RowDefault"], "\":\""}, 
+                    "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    
+                    TemplateBox[{"\"So this solution is correct\""}, 
+                    "RowDefault"], HoldForm]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    TemplateBox[{
+                    TagBox[
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm], ")"}], "2"], 
+                    HoldForm], "\" \[DoubleRightArrow] \"", 
+                    TagBox[
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{
+                    FractionBox["1", "2"], "-", 
+                    FractionBox[
+                    RowBox[{"\[ImaginaryI]", " ", 
+                    TagBox[
+                    TagBox[
+                    SqrtBox["3"], HoldForm], HoldForm]}], "2"]}], HoldForm], 
+                    ")"}], "-", "1"}], HoldForm], ")"}], "2"], HoldForm], 
+                    "\" \[LongEqual] \"", 
+                    RowBox[{
+                    FractionBox["1", "2"], " ", "\[ImaginaryI]", " ", 
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"\[ImaginaryI]", "+", 
+                    SqrtBox[
+                    TagBox[
+                    TagBox["3", HoldForm], HoldForm]]}], HoldForm], ")"}]}], 
+                    "\" \[TildeTilde] \"", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    RowBox[{"0.5`"}]}], "+", 
+                    RowBox[{"0.8660254037844386`", " ", "\[ImaginaryI]"}]}], 
+                    StyleBox["\"\\n\"", Large, StripOnInput -> False], 
+                    TagBox[
+                    SqrtBox[
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm]], HoldForm], 
+                    "\" \[DoubleRightArrow] \"", 
+                    TagBox[
+                    SqrtBox[
+                    TagBox[
+                    RowBox[{
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{
+                    FractionBox["1", "2"], "-", 
+                    FractionBox[
+                    RowBox[{"\[ImaginaryI]", " ", 
+                    TagBox[
+                    TagBox[
+                    SqrtBox["3"], HoldForm], HoldForm]}], "2"]}], HoldForm], 
+                    ")"}], "-", "1"}], HoldForm]], HoldForm], 
+                    "\" \[LongEqual] \"", 
+                    FractionBox[
+                    SqrtBox[
+                    TagBox[
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", "\[ImaginaryI]"}], " ", 
+                    SqrtBox[
+                    TagBox[
+                    TagBox["3", HoldForm], HoldForm]]}], "-", "1"}], 
+                    HoldForm]], 
+                    SqrtBox["2"]], "\" \[TildeTilde] \"", 
+                    RowBox[{
+                    RowBox[{"0.4999999999999999`", "\[VeryThinSpace]"}], "-", 
+                    
+                    RowBox[{"0.8660254037844387`", " ", "\[ImaginaryI]"}]}]}, 
+                    "RowDefault"], "\":\""}, "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    
+                    TemplateBox[{"\"So this solution is incorrect\""}, 
+                    "RowDefault"], HoldForm]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    TemplateBox[{
+                    TagBox[
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm], ")"}], "2"], 
+                    HoldForm], "\" \[DoubleRightArrow] \"", 
+                    TagBox[
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{
+                    FractionBox["1", "2"], "+", 
+                    FractionBox[
+                    RowBox[{"\[ImaginaryI]", " ", 
+                    TagBox[
+                    TagBox[
+                    SqrtBox["3"], HoldForm], HoldForm]}], "2"]}], HoldForm], 
+                    ")"}], "-", "1"}], HoldForm], ")"}], "2"], HoldForm], 
+                    "\" \[LongEqual] \"", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    FractionBox["1", "4"]}], " ", 
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{"\[ImaginaryI]", "+", 
+                    SqrtBox[
+                    TagBox[
+                    TagBox["3", HoldForm], HoldForm]]}], HoldForm], ")"}], 
+                    "2"]}], "\" \[TildeTilde] \"", 
+                    RowBox[{
+                    RowBox[{"-", 
+                    RowBox[{"0.4999999999999999`"}]}], "-", 
+                    RowBox[{"0.8660254037844386`", " ", "\[ImaginaryI]"}]}], 
+                    StyleBox["\"\\n\"", Large, StripOnInput -> False], 
+                    TagBox[
+                    SqrtBox[
+                    TagBox[
+                    RowBox[{"x", "-", "1"}], HoldForm]], HoldForm], 
+                    "\" \[DoubleRightArrow] \"", 
+                    TagBox[
+                    SqrtBox[
+                    TagBox[
+                    RowBox[{
+                    RowBox[{"(", 
+                    TagBox[
+                    RowBox[{
+                    FractionBox["1", "2"], "+", 
+                    FractionBox[
+                    RowBox[{"\[ImaginaryI]", " ", 
+                    TagBox[
+                    TagBox[
+                    SqrtBox["3"], HoldForm], HoldForm]}], "2"]}], HoldForm], 
+                    ")"}], "-", "1"}], HoldForm]], HoldForm], 
+                    "\" \[LongEqual] \"", 
+                    SqrtBox[
+                    TagBox[
+                    RowBox[{
+                    FractionBox[
+                    RowBox[{"\[ImaginaryI]", " ", 
+                    SqrtBox[
+                    TagBox[
+                    TagBox["3", HoldForm], HoldForm]]}], "2"], "-", 
+                    FractionBox["1", "2"]}], HoldForm]], 
+                    "\" \[TildeTilde] \"", 
+                    RowBox[{
+                    RowBox[{"0.4999999999999999`", "\[VeryThinSpace]"}], "+", 
+                    
+                    RowBox[{"0.8660254037844387`", " ", "\[ImaginaryI]"}]}]}, 
+                    "RowDefault"], "\":\""}, "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    
+                    TemplateBox[{"\"So this solution is incorrect\""}, 
+                    "RowDefault"], HoldForm]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}, {
+                TagBox[
+                 GridBox[{{
+                    StyleBox[
+                    StyleBox[
+                    TemplateBox[{"\[NoBreak]", "\"\[NoBreak]\"", 
+                    TemplateBox[{"\"The solutions are\""}, "RowDefault"], 
+                    "\":\""}, "RowWithSeparators"], 
+                    GrayLevel[0.5], StripOnInput -> False], {
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    TemplateBox[{"\"Answer\"", "\":\""}, "RowDefault"], 
+                    FontFamily -> "Arial", FontSize -> 12, StripOnInput -> 
+                    False], "\[SpanFromLeft]"}, {"\"\"", 
+                    TagBox[
+                    TemplateBox[{
+                    TemplateBox[{
+                    StyleBox["\" or \"", 
+                    GrayLevel[0.7], StripOnInput -> False], 
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", "2"}], HoldForm], 
+                    TagBox[
+                    RowBox[{"x", "\[LongEqual]", "1"}], HoldForm]}, 
+                    "RowWithSeparator"]}, "RowDefault"], HoldForm]}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
+                    AutoDelete -> False, 
+                    GridBoxBackground -> {"Columns" -> {{
+                    RGBColor[{1., 0.984313725490196, 0.6745098039215687}]}}}, 
+                    GridBoxFrame -> {
+                    "ColumnsIndexed" -> {{{1, -1}, {1, -1}} -> True}}, 
+                    GridBoxItemSize -> {"Columns" -> {2.5, Automatic}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {2, 0, 3}, "Rows" -> {1.5, 1, 2}}, 
+                    AllowScriptLevelChange -> False, FrameStyle -> 
+                    RGBColor[{0.8196078431372549, 0.788235294117647, 
+                    0.16078431372549018`}]], "Grid"]}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  AllowScriptLevelChange -> False, DefaultBaseStyle -> 
+                  "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                 "Column"]}}, GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+              AllowScriptLevelChange -> False, DefaultBaseStyle -> "Column", 
+              GridBoxDividers -> {
+               "Columns" -> {{False}}, "Rows" -> {False, {True}, False}}, 
+              GridBoxItemSize -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+              GridBoxSpacings -> {
+               "Columns" -> {{Automatic}}, "Rows" -> {{3}}}, FrameStyle -> 
+              GrayLevel[0.7]], "Column"], TraditionalForm]], "Output", {}]}], 
+       
+       XMLElement["dataformats", {}, {"plaintext"}]}], 
+     XMLElement["states", {"count" -> "1"}, {
+       XMLElement[
+       "state", {
+        "name" -> "Hide steps", "input" -> "Result__Hide steps"}, {}]}]}], 
+   Typeset`pod3$$ = XMLElement[
+   "pod", {"title" -> "Plot", "scanner" -> "Solve", "id" -> "RootPlot", 
+     "position" -> "300", "error" -> "false", "numsubpods" -> "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement[
+       "minput", {}, {
+        "Plot[{(-1 + x)^2, Sqrt[-1 + x]}, {x, -0.21282, 3.06}]"}], 
+       XMLElement["cell", {"compressed" -> True, "string" -> False}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TemplateBox[{
+              GraphicsBox[{{{}, {}, {
+                  Hue[0.67, 0.6, 0.6], 
+                  Directive[
+                   RGBColor[0.24720000000000014`, 0.24, 0.6], 
+                   AbsoluteThickness[1]], 
+                  LineBox[CompressedData["
+1:eJwVlnc81Y8bxUXci+KiIVFRKiKKkso9H6OSjMyKCN8yQ3ZRQmYpuyTJSplR
+SrYUiszSErLXdYcZST+/v57X8895P6/n/HGOuLWLwQV2NjY2gRVsbP+fFtcO
+FhWqNFYlBiVysMLmcKbxSkCTaGPVr0Jhrnm/ORhtKNEd/dNQ5UELlOTwnMOJ
+l0qjW0obqiLCN5aJWc3hwITipqj9DVUu/5mrXlSeg5C5XJiz3Ieqv/FbS53H
+ZvH+8Lazu8TrqzRnS85y685iz+LqlY9Xvq2KSeezid84A7nVQ7L8+4qq1DZn
+HNqRMgm5mDDX0z4RVa5uB8WL3Jj48OW+b1VwFmoEaw6m99Mw1PaEQ8a7Ems7
+XF4rfxkB/4B/vb9fPaaL813KjQbxUYpPkqrcin23c/9Kd/SCkHCONk7+DE3y
+PF+7bRdSu2X1Woq/IWlxb6226Dcc6Djv2CbVhY0xYUcsZtvRXX+NJvL0Fz5t
+li+xdGrClSPtv78X9CFOav0TrW11GAiu5swv6UNT3p5b01x10K3LFwys6UPX
+EfvxwtFabDt2S0b6cx8cC+W22D6rRaumhqXPXB+svDaYlR2qxXbtV/Ui1H6U
+FVuu4z39Dp8NEu+aNfaDU7gy7dijGuy2tFbsGhzA2mQ7SYfWSohbTnGK0Aeg
+u7tkpjqtEmssg76azA5Aq7TlhbJnJebPZfq0cg3iTq3ufJRIJd6dG6t+u2MQ
+e7Lisr7YVODMOTedbPtBzGfgUSVnOYIsAm28Jwbh4yzYw2ZeAm8LoQNFM4Mg
+eUvYxSuUwMEig5v1dxAmvr+7T/CUQM+iLteBbwiq3rPxm16/hogFz5S53BAU
+Dh+UMlv7Gs/MY65ruA7h3sKvAfkvr/DjbFqCwMwQ9I/nFOi6FkH1BNPn398h
+mDWfOMVxvAhPlanmE1zDWCkV3NmzpQhe636IfxAehtK5mquUthcQahXI8T88
+jLUtNhInFV5AWz2ggnFjGI3lpxY0/xWiUsqyr0lwBMIpL0pUHZ5BUjj/XdnG
+EYgJSjulbX2GCK7FzKxtI7CWa+806MqHaf89x+D9I8h2LB5L08/HXFLL9GHT
+Eewe72j+p5IHeQpIuakj2MH1X0GuZA5SZ8VkbsqPojGn4lu7/BPc5K5R1VUe
+xTi7tszRmUy4idqcElQbhX71hVNcpZlQU8sPTDQcxU+nQ4pOGpkYuE39nu01
+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
+                   "]]}, {
+                  Hue[0.9060679774997897, 0.6, 0.6], 
+                  Directive[
+                   RGBColor[0.6, 0.24, 0.4428931686004542], 
+                   AbsoluteThickness[1]], 
+                  LineBox[CompressedData["
+1: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
+92A0RQTF1sX9DIO/ASzdGiM=
+                   "]]}}}, {GridLines -> Dynamic[
+                  Map[{{#, 
+                    GrayLevel[0.7]}}& , 
+                   MousePosition[{"Graphics", Graphics}, None]]], 
+                Method -> {"GridLinesInFront" -> True}, Epilog -> {{
+                   AbsolutePointSize[5], 
+                   Hue[0], {
+                    TagBox[
+                    TooltipBox[
+                    PointBox[{1., 0}], 
+                    
+                    TemplateBox[{"\"(\"", "1", "\",\"", "0", "\")\""}, 
+                    "RowDefault"]], Annotation[#, 
+                    Row[{"(", 1, ",", 0, ")"}], "Tooltip"]& ], 
+                    TagBox[
+                    TooltipBox[
+                    PointBox[{1.9999999997107418`, 0.9999999994214835}], 
+                    
+                    TemplateBox[{"\"(\"", "2", "\",\"", "1", "\")\""}, 
+                    "RowDefault"]], Annotation[#, 
+                    Row[{"(", 2, ",", 1, ")"}], "Tooltip"]& ]}}, 
+                  DynamicBox[
+                   Typeset`ToBoxes[
+                    
+                    DynamicModule[{
+                    CalculateUtilities`GraphicsUtilities`Private`pt = (
+                    NearestFunction[1, {373, 2}, 3, CompressedData["
+1:eJztl1k01e+/x4lSSJkaKZklUVKR9puSeUxEhqSQkiGSEhUqkjLPESnJPEsy
+Z572/u4tQzIrsQ2ljNXpnLV+l2f9/+tcnHNznrWem+fqsz7reb3W+73L2umk
+zSoGBob/vNcYGRhcaoJywl/kVLhn1Ip7huRU3IxYfnbOK6fCz84+ZK9RTkUk
+24mrDcw5FddTF+wW6rMq2BpojvUqGRX71wXfsiGlVsheDK66mhddsddVMZHX
+zqXC2rBl9fV9T+C1gdVxTUIyynvepHcXZaDg98lgVmo+WjjWSPPLvsH+Byc2
+vZcrx8uIkEf6lCp0x6nuDzCrhfOubZorH+rwKT3Hu26oDloH1fKD6XUQ03Lj
+E2GqR79b25TO3npoN/iEJfrVQ8Jp4uOxfQ0YKCtzCnjYiJ1WI22x4Y2wYGLf
+m5HQiB4Ns8m2vEYQnYsXeXobUTdz0DpRsgnpwrmnClua8LW+K7+uswkSlxm4
+uwaa8CJXj7w014RE0pSOEn8zQkwk1ZqvNOP6oxfygxwtYHdgZmze2oJkrfMN
+BcItaGXdddpfoQUiAfFu0rYtIO6FZXu9a4HM7bsi2xxa8d5yYJLpeivMSCig
+323F/V8rx6qiWvHJ08PqYk0rHnk4xRVta8NnFwtOw8Y2eDb7Va+jtoFDJMO1
+8lMbZLuWaFJzbbhLio5du7Md29kIoXK3doifFI7j2diB2d/F3514O/A2XUu7
+eVsH9Fa7/ror0oFrJVVnpxU6ULPjrHCTTQcsJmIyb7/twBNh9zjvyg5UWZwM
+8HrfAZEOVhvP9g7QCzz5rg93wMvbItCRjYysYvkbVzaSMTDDa+fAS4bK+bZj
+l3aSwa6OJRtZMuI5d9lbmJHRpvnL2NyKDAa/bhUzGzLO/wwRMHUiQ7J3Vdcp
+XzLepoyoaqeTMdlXeUArh4ydm58KahaS4Rtg9FutggxNx7rC4wQZPYdeCR9Z
+JuPwhmeqLxkoiByLusi5hgKDiAcZnzdSUP/N9kC4KAUiTZbGfyQp8E0y9ri0
+jwKSvmqZkiIFhZkiKnQDCrju8duanKbA2ZzXv8acAkm21S0xdhQkXxwxVPWi
+gEHp47VcHwosNlOj+Pwp2FJX0/stlIInQs/PJ76igL4Ue481iwJNSmjqtXwK
+Vt/1mdAqp+C8yc31xTUUVEpflRZspODWp3OuCwQFPYWmEee7KTgcZFDc9omC
+70eUl1PGKbCPEfA1+PN3buctL8qYCYiob6wXYyUw8PMP628eAqS2+T322wjE
+vZjWpe4kYHyqP/T1bgIFkh8KeGUIcDG1d96RI+DcU7cwoUCgLbd822klApIB
+RYrVJwgEWGVZSmkRGDv08k60PgGVDQnJTMYEWF0/mXKZEejo3MG5y4pApMLZ
+BmkbAuYJibdJlwgIrho4qONE4IuNwJSZG4GsRqsXl24QcJNKMr/hTUA+ZJDb
+35cAw49dzZH+BOpMrH1eBBEILEuWLwglcFJgeKY6isAWP6FX5HgCfZ/Pnx1I
+IvBcK2XT9EsC9tkjrb/SCezlFrnHnktgzt1GcXsRgbc9L75LvCX+/uOx14cr
+Cagli1qrvSfAvsZuq3ETAYp9aseFdgLRrZ8fuFIJWO4Th083gYmFV5mJwwRy
+zMcvZH0h4F4pwfeOTmCV/+uHPfMEGie+Ko+vEHiiJ7k4z0jFts0ZdrzsVAzc
+nNwhzEnFy097OvdvokL2ZaaKvgAVC+umli1FqCi/sjf/ym4qNOWydwUeoMK6
+Nuf3e3UqxMRnC6k6VNAD910ZPknFDcO8XgYLKkKG8kuOuFBhrDrnpOlOBf/r
+A2KmnlS8dimMcL9HRRVD8dXcGCryV3Fb7kmkIoXZSSM1hYqAtWICT7Op0NsY
+1er/ngplru8lTM1/5+HRS/HuoGLTFhZPt14q+nZeF7eapaJtF8Hd+5OKSiHp
+P0YrVDwX+0zTYqHhkvRp30P8NMyTDn3i0KDhi1JYY4AuDT3HpguYT9HwTjU1
+cMmSBj/dzfJjbjRwWs6HvXtGwx6vYg2HBRr4yubTWn/RwLF8iFWaqRNTHiVN
+s+s7ke32Ruu6UCdkHd7q+Oh2QsGswiA6pROSsX9yF9M6sb0bXGbZnVgxrqTw
+l3ai/GSV4fP2ThzTrDHKWuqEhny9aa3+ByQx6+s1Gn3AcnuXStuZD8iw/Srd
+deEDOMLXr5n0+ADalGEed9IHnEsZYD0/+wFvnOwZLv78AK4j3344LH9ADZlp
+0H11F8T+iBY/3NqFSdMr5/OUu+CxYektY2gXfnkkjF6N6sLdoWMbRuK78LAw
+0LoutQvxZvzrAt91oSJVyZhnvAssSg9mRJW6EeHMI6I91Y27towjVt+74WQ+
+lXxtoRvq6g0Ciat6sLLzFt+3TT041z7MHY0eSO3NXzUS3IPaCYMBT9levHiZ
+QFW/+hFuk5R2wZY+GGnv5h/i6EdoXMHh0wcHQMkx+8M2NAA+Qx4nWZ9BfCxV
+sh6UHsLLbO/fjJQhqKuoHJp1HoZVgtd3W/4R+N5rMNErHwHf/gfK5Q6jKL98
+mkjcMAb5E9mM+tljkBy5mX/f/DPENppwyPz+jBjGtMmzmV8wGnrXztJ0HPK5
+lwPbF8fBFNG4vz71K7pWy/vu05zA/U0yzpfGJ5A2GTsgETmJTr3NS2aH6Mhj
+vl0hqUDH4zdjfsuKdJwQKtoQd4yO/J+nRHp06Ah+GqpvcoEO7Yn1qadC6BB9
+ds1BOJyOVUZ9++Yi6SgtzygLi6dDIlSLQkmlg0U+4Jd+OR3D9JlqgSo6KpJN
+/Gdq6HBnF+cObqRjpL9OvJ369z1871TCBzriNCLzHXvoOJlvQ+IYoGPvxVam
+T0N0sPLLNWaO0jFGjn/s9YWO6vvMp3Qm6Dizsn1Z9PH/3DP/nV/+lVf+lUf+
+8ca/64d/1wP/8P6/xfP/lNN/+PuHp//n4/+Gj4MW28d4pTtR+Wa/XY5IJ0gc
+EmPafH/9nJjXF7iuE7pW8vm7RmiItOJdyIihodSEZVx5DQ0aYoSdzSiBw+oF
+Ei6PyVDO9mdbYWzHwkV/4a1HmiEfbtSjaF+P4ufrglW210J0JH9ge3sl7sw9
+upVb/BbhIRTxlTdF+HxaXLGwPxfvtTffmipLx8OnsmlfPqVgkDcmTbkmBami
+71kyU1NwmdOlr9Q5BTNsW6bymFLwIzw5hUfqOep+ptkmBCVB9zuTVyTbUxgV
+zOs+GohHp9IWvuTCeKiX9adKWcXjo6L/vdqiOFAvwHTWPhY/9FSt1b5EQfoO
+EaNYFYVhz6AWg9govKU9EPqoHQV+7sgo5/xIZBdsiY6+H4FVYUVLIyphOMPY
+/X58RxgkE8qEeRZDcfh8/dPuzFAsb5u4JbY1FPLKl6fbfgbjT0e8Zkx8EL5p
+SZFZzgShS0jpdtXmINz8OmmwKfwRuAhr8ongQGRwVh4uiwyAj4pS2pqP9/As
+om/z6PN7SHVvmWNzuAezLwmL+3/5weDhJukxQT+kNehrDHr6gM1y6NqpBm8M
+Ltz5vOeSN67mV8tFsntj4oH0xe2GXuDJyhKeGfPE0eljK9USNzChUiPCweeG
+gOuPovhprrjCyrI2/bErdhtsHAWTKyytXZ8YfHPBarF5TYkOJ2yNLGRee9IJ
+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
+0zDDGC5j84KG/wCo2YpR
+                    "], CompressedData["
+1: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
+qSQG6Ue37qhl31MG6ccEa9h2m2cM/A/G3opR
+                    "], CompressedData["
+1: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
+ge1HD2VYR2uaBbYfHWkqaZ0sFv4HvmpVwA==
+                    "], Automatic, 
+                    Hold[
+                    Nearest[CompressedData["
+1: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
+qSQG6Ue37qhl31MG6ccEa9h2m2cM/A/G3opR
+                    "] -> CompressedData["
+1:eJxF1mk0lV3cx3FD5nDSJKVSqSghFSp+l6GSilAqItxlLDKX7mQemswlSRGK
+EKVEpltmGYsGQ+bZGTiOSHp61nrO9bzaa7/Z/732fvH5Slk5GV7g4uDgcOfk
+4Pjf1fz63twctbqSuIA4bkbIDM7UXfWtX1NX0p0jzjvrPYMTq/L1Rn7VlriN
++0lzu8/gyBvlkfUFtSW3Q1e/l7ScgcrErrXhe2pLnP4x07ioOoOlZvIhjvI1
+Jb9jNhY4jrJQvX/T2W1SVSU6rPyzAnosKM4LL0pZ9KEk8qmIdczqacgLD8qJ
+7s4t0VyXvG/Lk0nIR4Y4n/a6XeLsslcq14WOmrYH10oC01AmVrb3ad84Bpuf
+cW/3LMbyVqd3qm3DEO33qfLxrgIzL8up8MQAPsqISKurNmH3nYzfsq09IDY4
+RpxM+Awd/lmRFptOJHbJ6TfmfUX8/M6Ko2u+QqX1vEOzTCdWR4YcMGe1oKvq
++rjE8258WqeQb3GpHlcPtPz8lt2LaJmVz3Q3VaI/sJQnK78X9ZmKt5i8ldCr
+zBLzK+tF5wG7sZyRCmw6dGu77OdeOOTIr7d5WYEmHW0Lr5leWHqsMn2/rwKb
+j76tklDvw/s8ixVCp8vx2TDunmldH3jEi5MOPS7DDgurXZ0D/VieYCtt31QM
+KYspHglqP/R25E+XJhVjmUXAF2NWP3QLGl+ruhdj9lyqVxPvAO5W6M2GSxSj
+/Nxo6YctA1BMi05rsy7CmXMux9LtBjCbjMfFPIUIMPez9pwYgJej2A8Os3x4
+mi9VyZ0eAJ/nBtsYpXzYmycLMH4PwPjaz64jgvnQN6/MsBcZhIYnK2btu3eQ
+MBecMpMfhNL+vTKmy9/hpVnkDW3nQdyf6+5XaHuL72eTYpdMD8Lg8ItsPedc
+aByhe/35PQjThiOnuA/n4rmqutkE7xAWyQS2/1ifC48V36VqxIegfK7sX0rz
+ayxtWvLCZ/8Qljdabziu9BpHtXyLaP5DqCs8NafzJwfFMha99WLDEH/yOl/D
+/iWkxbPK368ehqSY7KWkjS9xm3c+NW3TMKzkW9oNO7Ng0nffIXDPMNId8kaT
+DLIwE9/I3G8yjB1jrQ1/1DKhQAFfRuIwtvD+k50h/QKJLMntNxVGUPei6GuL
+wjPcFCjT0FMdwRjX0e0Hp1Phssb6lJjmCAxKL5ziLUiFpmaWX5zRCDou7dt1
+STsV/XfUv6V7jKAvyom/9WwKtkqfC6orHMGw0C8J4finyDZ60r348CgaXiQM
+rz3xBLHW2qwmg1FM1D6Qk9vwBL5Xh4ViTEZx9wkRTel5DMPHCsqSF0dxY/Xj
+pbprHoM5WnpHLmwUZs8uHWI8eAQVv569eq2j4Ftp4E95FYfS7A0xYZZjWGas
+eDTyZAwU/O2cCu3GoKQx+0FfMAaJJ7MPjziPwefWf4ORJdHwm1Nb0PQbw0c1
+I7n0bdHQ0j5jw0oag+iqa8VrBKNQ+SVM1ax/DEvSO+hLusOxJ71t6c3xMeSE
+pIvLPgpH6r+S1LfMMYRWXhmrMglHsNSLJArPOHJKtm+SeRkGHYdKoXLpcWiJ
+ZVT2Zd1B3cJ8p6zNOP652LDtanco9jdrvTvlNI5Yike7uUMoMp7ejAzwHIeu
+69oe/ZkQ3NYRP9QVPA4ON2eqkVgI9CKVsiOejyPSav2S/hNBaJK29/s5Mo4O
+ZqLHpsX+IH5mn5WeHIeUz8mgkmd+yKmd2WM4N47aGoHxC9p+iHQKHHshOIGr
+sW75n318YZT/5MS5bRPYstHo7F5eH7Qd/bK58uIEONptAo4EeeG9cPuSZPcJ
+HNtq+q296SqeNHTN+3pPYEC5fnOP5FXYHR9sUQufwKIEuRe6JZ6YN5r2fvN6
+AqmBP848WOeOnmWzdlGFE9AaqHZpvu6Gytb5E84VE5DhUwzw7nJF2KlF2+S+
+TGAw4nq48jMXbDBd+iV5bgIfyvj0pY0vg2/NyjI/birM7BpOCYY7YbxDItNi
+MRU1zTe5cq844o35Bv81a6m4pjAvW3H6InSsFOWjNah4sem/qi4jW8ht3C3h
+okuFlNxFAaq5DcT6VXiOG1GxvWDZ/iFHa7RfINqFLlCxwsrc7f6j83C00w/2
+D6GiaPiTAm23JYxkjVwsI6hoWe4wd8zWAipjxmaIo2Lm7h87OZwD5yVzpV8v
+qFB31pqrUz2LQTmrtd9yqeCjmy3/VmGCWuoFgbwiKtZfcRUrMD2D6MuXfrg0
+UuH5NOzVTLIxrio61x7/SsWPg/dOnjh9EuaTbm929FDhNHX/e8DyE9ji9u+t
+0UkqttjevmmZaYACz1vKVitoeOjtumhpqi4eq4RtINbRMHhK0V4wXQcBs5HC
+a7fS4KM1EJX230EcuxbX902VhlYDeaUf27Swc39CQ54mDWfdKp67e2tgxe/E
+/JgjNPxn+LTcpgbo9k4LMzCjYToqVlP/qyoqkOklb03DDQf3YwUSykjnyLkg
+7ERDmo16t1vALoT9l3t8zJMGl5CpOe/lO+Hm925fjQ8Nbx/K7Mt5KI8zWoWb
+n4XSUOWkHc5tug3qi0qXBEbSsOqO8jTTdgs2VHyYt3pIgwiTyz6wYiP4gqqG
+iOS/932aSs29vB5uvI73gzP+zrNsv3xUeTW6g5YdasilwT1bh2v7ihU4xvee
+tayIhuadMRH83ktQEGyZalrxd16Lr1p5pyA28/MbJ9XTsCntvpFzMzeiQrJ4
+Rlpp4G/4UquQ9UudQ+DkG/kuGpIlfg+4dDLUL4b+Ou8x+Pc8Z3WGgWW/+leB
+pGVFVBqWJPwUPPq4Rf3ATZ1y7hkaZq0SDlDkc9VfCdJcdf/QIJmXGTW2klAP
+q6iNqOamI+f9XKlkYoZ6JU/CyBjfX8f3NmWvsGhUnz/grCG6mA7rJYYOPXK9
+6juDtB/spNBx/nvu7ZYLdHXbypWMk8vouPSvmunzr7PqCbxjOlfF6bDxTKTk
+53Hh88HiJ/Fr6PgQa0VbGSMAweCInyXr6ZBewjivUkaBRtX5432b6NgsRGnq
+0VyOK3wqz3ll6LihKqIaclQCWYeEOGTl6KiMG3u87cc69Ad3nTqmSIeY+Aku
+698bIFGd8/Lybjo+zie+ztXfjOP8gXzRqnSEX/vR5zsog2Cd0+fy1Og4FbM4
+qv4/OTCrF0QWDtCxtU5Cmb5BCbICLdZSunRkF4vXG3nuhsXhlGJtPTpw424S
+a0IZ9TVHHG8Z0yFu2yM0p6GGRYLrKrNM6Nir80M/U5TAXt1JyRZzOmLKQlWv
+h2kgtTa2XtyGjmZ7sfFrZdroELwovd+BjtxYem66+0EsPYLr55zoCM28KTmr
+qgOfuoHtqZ50mN6crGdOH8FbofyAmmt0GBiWLk+aOIbxI7c7xm/8/Q8O3d+O
+LH2c+bjztlIIHQMh1a2vJQ2xs/7GWGns3/fl8NS0rzGGrbCRVn88HfXexy6U
+CJxGwrHND/kS6VhF5zydbHgGQg0fdfXS6KjOWJQpuWCK/oZV6e35dFytfCc4
+1GkBCdEJzj9FdAS1PGw//sQSBvqlZzaU/f3vr5eiuWysUNxoLWBXS0drU1eR
+Gud53G96bcv6TsdydyZNzM4G/CEDOi4/6HgSGF8qYGmLK1gpQ+2jQ2bx9DE+
+czuYZHmNDIzTcezfvIQVNg5Yc1vDvnWBjqRBX/GgN064reWqa8DNgN5nY5tv
+9pfxey5Ztp6PgSB6+XrX35fRZcc/Vk5hQPp7WpaCrAueHGp0yN3AQJLLvT2f
+E91A+cNxVGELAy7bHQN4DrrD9+3O7RnbGPCVSlAoGHeHlfS98ae7GKgp5E3O
+1PDEJm6zS1EHGYh7N8cqFPDC8+JRRxd7BuJ736aqC/hA3GONPtWRAePY84SL
+kw9C5fTk7V0ZeOOgHjrU5gP7+Bya5b8McDt4bL2f5ovtXlcuG9xlQP3jTLyg
+uT+yd/O6KLxiQGkVYa7JHYz8DCl36iwDyp2DGtPqYbD3WHA8ucDAgS28K8pr
+w7CGaLct5JpEqt2od/+2cHh/ij57U2gSBluJgIKCcGjO8WlvlpzEWzofz4sf
+Efh4iCpmTkyiP5P/x6OD0ejuLciuD5rEsW8NzNqQB4jIuJ++69YkWh9+frC0
+9wE0PdySH4ZN4rDoK52ZfXFIEdgRaxc7CUEB5ocwRhzsFRJv8KRPIuRQtALP
++XgwrwfrqdVPoop+oJfT+jH4Vp0Yz1g6hTVzb42kaEn4V9NPp3rlFL5k3n7Q
+IPUUkw7ZyX2rpxDkEmdccuIpOooXm0lsmoL3DvM9Du//9tT5ivrgXVPY5xx0
+e/xWMkyy97y0OjkFng0mUTGqqcg4tMpF/P4UTBREhHyr0iDlfKhB6eEU+jkG
+lR9xpeNenLus/uMpnOydbp9XS4fPRHNv4LMpjH4pCg16k46TUTeNpvKmwLhD
+vfbh2QssdP3a1fB1CpulPxX0xWbiuEfXjL8EE7t8TjR3tWWDY6VDx8xaJj4N
+zI9e/5WNl3kzpQ4bmdhr0vFCe30ORGYpN422MxHoRGw8bJ+DumtaazaqM9Fz
+5NGwHMcrHPR9TpRZMtFdl1Zv/bd/9992CeVI+3vesDDnvbw32JLEu/q68jRC
+7nEJj+55j7ikfsuUfdNYv3TgiqnVe4g8LXtej2lU9vS40+68B/Op9561OtMQ
+cJfdeGPgPcpSWAYlp6fxyXVGV+1eIc6mDYZwek2Dr8WncddCEcKzK1mBhdNI
+CdlqzO9WitnioJa7Giwk1bt+L4r4gBmHOqb1wRmYRyhNeHvUwn8oc4el5U9c
+S9e5VHW3GYInhudd7WYhcvEev7V0G9aFlfY+D55DkayNwYF37bAwMVNKfvIL
+/aHOmmaD3YhfYSj+LnUeIQzXnALOflxI7F9GLfsNj3ehXkszhiAr2Ziy/+MC
+XCa2mu48N4bVMt6JBk1/4J757I3VX8c/+l4w0XbnIBo1G47e6GUgdEh5x/hP
+DkKaq/Ck0nom7uz6JpwSzEkEDoslmOeyIOKVqjy6mItQf7++ppCYRQpf273I
+MC4inveIykLPL/j/+5nzqCQ3YXet8dHPngX8GFl4G5HITZjlPKkVHeEg/NR/
+eg4rLCLyo8Zs+qO4iH3tRo5JRYsIyaACFw/dRYTz5fasYYKHWBOR2sk1zUNQ
+xxV/oZGH+HjUjjO0jY8YscyN2HiCl+DQCbVjpAkQc2sfmNm38RI8iZl8QwFC
+hMGHo7vL/uEjSpMYBDNOmNhssf1U6hAf8ex4lFdfgiix5lat5tQIH3F3tX6z
+wHNRQuyt7Q5inI8wzC3yUswRJRaEUni+0/kIJ/3XFQEfRInWPMlc4Tk+4uc2
+jv37hkWJAFHRJe6L+YkdoLROiVOIvmJGrZbi33252sF1/1CIryNhb8OV+Inz
+wdXxVTYUomHZjqTO3fzErZyM+MsXKUSBvf1Vz738RNJe39hydwoRuaJvywst
+fmJunamPWwiF0HT8HCBmzE8YKrdQmJkUQuWBy+Vzp/mJS3ZT86mvKH/nUM5m
+mPAT7lyOkSZ5FEJC4pjSwXP8hIGdU/6HUgrBqKjouWrLTygIPp159IlCDNL/
+qa+05ycKXMN2GH+lEB2rufKXXuIndmm3ioh2UohqZ/XwTGd+YnLVpTq/QQpR
+HN9xbc6Vn9izruSZ2hiFyK3ysjnkwU/Y3bKXm6VRiPRJcaPoK/xEqLnT2TdM
+CvFEMk+9x4ufiI2t3+UySyF+qm+WEeWgQzTR5qLGZiewe8bYd4m/4rrHYPfM
++hoH4U0BqWD3jPdjV7pY9Quwe8YiWuE/lVXZYPeM1H6/b0UCr8DuGRWrno+f
+al6TPRO60mjE4sIbsl+kr0fr6R95R/bLgS9cn7oT8sl+OXn02Ya3PQVkr+xU
+eNCYr1ZE9sr1K3v2S5sUk71SyWMy43+xhOwVztXzjz3fl5I9knvwe5rEwzKy
+R0K1md4pQh/IHuFsr9yYevUD2SNLeHdzZ+qVk72hEdW5/mp3BdkPXmrTQr/z
+qsl+6Nte9Xy9cA3ZD5zPbF9utqwh+yGoLUaEh7eW7AdX/eeRy7XryB64ULJw
+SzO2nuwBu4FnEZcH6skeOBw3Z/hNsYHsgZ/OmRPO1Q1kDwjvHpQ3mGgkfb+j
+kSbTvLiZ9Dn5J4dIkcAn0ueL8tvotVs+kT4rTSgx0w58In3++IBR1OXzifS5
+KMXAT3X6E+mz8mt/baO2z6TP4l98BRW820ifuw8P28rfbyN9br7mv39pdhvp
+s8SgV3poTxvps9i5YKF9Wl/+32fn5pRpzq+kz+JpbtqZjt9IT90ump+spnSQ
+np7G1pXXN3aQnjIVXjlL7+kgPW306jc0MO0gPb2uFGQpntJBelrPcov13NNJ
+elrlFNEvZNBF+meVIb49Z1c36VPH3IH+jAO9pB/Odwamr3P1k37I9JQbjEQN
+kH7EPTfYUbh1iPTD5arMFN+tYdKPeZW9GwumR0g/PssnWPgcGiP9qObwD3Vx
+Gyf9qOU0GDidOUH6EazVabC3kkr6MRe2Z1Cu6f/9uDKkeiPJlU76Iax3/nAN
+g076kXpz69tADwbpx8FNIyKcNAbpR6CeiZeU1STpx+RA5qeh9knSj0NRuXXf
+dKfA9kOwWzfxROnfbvk/P0w+f7wppsgE24/7AoGPl8QywfYDFJpJIM802H4M
+Kq27/95uGmw/2vOz5PfWToPtB0Ox9w1FkQW2HzKiQTPnwlhg+1Eb8jqaM4IF
+th8ura+WPo1kge3HH2GNvIEYFth+2PgbxtjFs8D2I06I9cohjQW2H4ahsoln
+PrDA9mOBRgmcKWeB7ccEI+ZITCULbD/Kq6N9mmpYYPvRrrfs1oEmFth+eI4E
+b5HtZIHtx/IHGiqVXSyw/fg1Mr/NqpsFth+8A+GFD/pYYPvR//urH98oC2w/
+HgXoZiSNscD2o+4c9Z3aBAtsP1K0B6650llg+3HfUnunyCQLbD9uzU7UPZ9i
+ge1HD2VYR2uaBbYfHWkqaZ0sFv4HvmpVwA==
+                    "]]]][#/{
+                    3.2728203230275508`, 4.24359972481593}]& )[
+                    MousePosition[{"Graphics", Graphics}, {0, 0}]], 
+                    CalculateUtilities`GraphicsUtilities`Private`scaled = 
+                    MousePosition[{"GraphicsScaled", Graphics}, None]}, 
+                    If[
+                    CalculateUtilities`GraphicsUtilities`Private`scaled === 
+                    None, {}, {
+                    Text[
+                    Style[
+                    Row[{
+                    (
+                    Function[{
+                    CalculateUtilities`GraphicsUtilities`Private`a, 
+                    CalculateUtilities`GraphicsUtilities`Private`acc}, 
+                    Quiet[
+                    RawBoxes[
+                    ToBoxes[
+                    NumberForm[CalculateUtilities`GraphicsUtilities`Private`a, 
+                    Max[1, 
+                    Ceiling[
+                    RealExponent[
+                    CalculateUtilities`GraphicsUtilities`Private`a] + 
+                    CalculateUtilities`GraphicsUtilities`Private`acc]], 
+                    ExponentFunction -> (Null& ), 
+                    NumberFormat -> (StringReplace[#, StringExpression[
+                    Pattern[CalculateUtilities`GraphicsUtilities`Private`s, 
+                    BlankSequence[]], ".", EndOfString] -> 
+                    CalculateUtilities`GraphicsUtilities`Private`s]& )]]]]][#,
+                     2]& )[
+                    Part[
+                    CalculateUtilities`GraphicsUtilities`Private`pt, 1, 1]], 
+                    (
+                    Function[{
+                    CalculateUtilities`GraphicsUtilities`Private`a, 
+                    CalculateUtilities`GraphicsUtilities`Private`acc}, 
+                    Quiet[
+                    RawBoxes[
+                    ToBoxes[
+                    NumberForm[CalculateUtilities`GraphicsUtilities`Private`a, 
+                    Max[1, 
+                    Ceiling[
+                    RealExponent[
+                    CalculateUtilities`GraphicsUtilities`Private`a] + 
+                    CalculateUtilities`GraphicsUtilities`Private`acc]], 
+                    ExponentFunction -> (Null& ), 
+                    NumberFormat -> (StringReplace[#, StringExpression[
+                    Pattern[CalculateUtilities`GraphicsUtilities`Private`s, 
+                    BlankSequence[]], ".", EndOfString] -> 
+                    CalculateUtilities`GraphicsUtilities`Private`s]& )]]]]][#,
+                     2]& )[
+                    Part[
+                    CalculateUtilities`GraphicsUtilities`Private`pt, 1, 2]]}, 
+                    ","], 12], 
+                    Part[
+                    CalculateUtilities`GraphicsUtilities`Private`pt, 1], {
+                    1.5 Sign[
+                    Part[CalculateUtilities`GraphicsUtilities`Private`scaled, 
+                    1] - 0.5], 0}, Background -> White], 
+                    AbsolutePointSize[7], 
+                    Point[CalculateUtilities`GraphicsUtilities`Private`pt], 
+                    White, 
+                    AbsolutePointSize[5], 
+                    Point[CalculateUtilities`GraphicsUtilities`Private`pt]}]],
+                     TraditionalForm, Graphics]]}, AspectRatio -> 
+                NCache[GoldenRatio^(-1), 0.6180339887498948], Axes -> True, 
+                AxesLabel -> {None, None}, AxesOrigin -> {0, 0}, 
+                BaseStyle -> {CellBaseline -> Baseline}, Epilog -> {
+                  AbsolutePointSize[5], 
+                  Hue[0], {
+                   TagBox[
+                    TooltipBox[
+                    PointBox[{1., 0}], 
+                    
+                    TemplateBox[{"\"(\"", "1", "\",\"", "0", "\")\""}, 
+                    "RowDefault"]], Annotation[#, 
+                    Row[{"(", 1, ",", 0, ")"}], "Tooltip"]& ], 
+                   TagBox[
+                    TooltipBox[
+                    PointBox[{1.9999999997107418`, 0.9999999994214835}], 
+                    
+                    TemplateBox[{"\"(\"", "2", "\",\"", "1", "\")\""}, 
+                    "RowDefault"]], Annotation[#, 
+                    Row[{"(", 2, ",", 1, ")"}], "Tooltip"]& ]}}, 
+                FrameTicksStyle -> 
+                Directive[FontFamily -> "Times", FontSize -> 10], ImageSize -> 
+                300., LabelStyle -> {FontFamily -> "Verdana", FontSize -> 10},
+                 Method -> {}, 
+                PlotRange -> {{-0.21282032302755086`, 3.06}, {0., 
+                 4.24359972481593}}, PlotRangeClipping -> True, 
+                PlotRangePadding -> {
+                  Scaled[0.02], 
+                  Scaled[0.02]}, Prolog -> {
+                  Opacity[0], 
+                  TagBox[
+                   RectangleBox[
+                    Scaled[{0, 0}], 
+                    Scaled[{1, 1}]], Annotation[#, "Plot", "Frame"]& ]}, 
+                TicksStyle -> 
+                Directive[FontFamily -> "Times", FontSize -> 10]}], 
+              TagBox[
+               GridBox[{{
+                  GraphicsBox[{
+                    RGBColor[0.24720000000000014`, 0.24, 0.6], {
+                    AbsoluteThickness[2], 
+                    LineBox[{{0, 0}, {1, 0}}]}}, ImageSize -> 13, 
+                   BaselinePosition -> (Center -> Center)], 
+                  StyleBox[
+                   SuperscriptBox[
+                    RowBox[{"(", 
+                    RowBox[{"x", "-", "1"}], ")"}], "2"], {
+                   FontFamily -> "Verdana", FontSize -> 10, 
+                    GrayLevel[0.5], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}, {
+                  GraphicsBox[{
+                    RGBColor[0.6, 0.24, 0.4428931686004542], {
+                    AbsoluteThickness[2], 
+                    LineBox[{{0, 0}, {1, 0}}]}}, ImageSize -> 13, 
+                   BaselinePosition -> (Center -> Center)], 
+                  StyleBox[
+                   SqrtBox[
+                    RowBox[{"x", "-", "1"}]], {
+                   FontFamily -> "Verdana", FontSize -> 10, 
+                    GrayLevel[0.5], 
+                    LinebreakAdjustments -> {1, 100, 1, 0, 100}, LineIndent -> 
+                    0}, StripOnInput -> False]}}, 
+                GridBoxAlignment -> {"Columns" -> {{Left}}}, AutoDelete -> 
+                False, GridBoxItemSize -> {
+                 "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                GridBoxSpacings -> {"Columns" -> {{0.3}}, "Rows" -> {{0.3}}}],
+                "Grid"]}, "Labeled", DisplayFunction -> (FormBox[
+               GridBox[{{
+                  TagBox[
+                   ItemBox[
+                    PaneBox[
+                    TagBox[#, "SkipImageSizeLevel"], 
+                    Alignment -> {Center, Baseline}, BaselinePosition -> 
+                    Baseline], DefaultBaseStyle -> "Labeled"], 
+                   "SkipImageSizeLevel"], 
+                  
+                  ItemBox[#2, Alignment -> {Inherited, Bottom}, 
+                   DefaultBaseStyle -> "LabeledLabel"]}}, 
+                GridBoxAlignment -> {
+                 "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                False, GridBoxItemSize -> {
+                 "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                BaselinePosition -> {1, 1}], TraditionalForm]& ), 
+             InterpretationFunction -> (RowBox[{
+                StyleBox[
+                "Labeled", FontFamily -> "Bitstream Vera Sans", 
+                 FontSize -> -1 + Inherited], "[", 
+                RowBox[{#, ",", #2, ",", 
+                  RowBox[{"(", "\[NoBreak]", 
+                    GridBox[{{
+                    StyleBox[
+                    "Right", FontFamily -> "Bitstream Vera Sans", 
+                    FontSize -> -1 + Inherited], 
+                    StyleBox[
+                    "Bottom", FontFamily -> "Bitstream Vera Sans", 
+                    FontSize -> -1 + Inherited]}}, RowSpacings -> 1, 
+                    ColumnSpacings -> 1, RowAlignments -> Baseline, 
+                    ColumnAlignments -> Center], "\[NoBreak]", ")"}]}], 
+                "]"}]& )], TraditionalForm]], "Output", {}]}], 
+       XMLElement[
+       "dataformats", {}, {"minput,computabledata,formatteddata"}]}]}], 
+   Typeset`pod4$$ = XMLElement[
+   "pod", {"title" -> "Number line", "scanner" -> "Solve", "id" -> 
+     "NumberLine", "position" -> "400", "error" -> "false", "numsubpods" -> 
+     "1"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TemplateBox[{
+              GraphicsBox[{{
+                 TagBox[
+                  TooltipBox[{
+                    PointSize[0.02], 
+                    RGBColor[0.24720000000000014`, 0.24, 0.6], 
+                    PointBox[{1., 0.032999999999999995`}]}, "1.`"], 
+                  Annotation[#, 1., "Tooltip"]& ], 
+                 TagBox[
+                  TooltipBox[{
+                    PointSize[0.02], 
+                    RGBColor[0.24720000000000014`, 0.24, 0.6], 
+                    PointBox[{2., 0.032999999999999995`}]}, "2.`"], 
+                  Annotation[#, 2., "Tooltip"]& ]}}, ImageSize -> 300., 
+               Axes -> {True, False}, AxesStyle -> {}, 
+               PlotRange -> {{0.95, 2.05}, Automatic}, AxesOrigin -> {0, 0}], 
+              "\"\""}, "Labeled", DisplayFunction -> (FormBox[
+               GridBox[{{
+                  TagBox[
+                   ItemBox[
+                    PaneBox[
+                    TagBox[#, "SkipImageSizeLevel"], 
+                    Alignment -> {Center, Baseline}, BaselinePosition -> 
+                    Baseline], DefaultBaseStyle -> "Labeled"], 
+                   "SkipImageSizeLevel"], 
+                  ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+                GridBoxAlignment -> {
+                 "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                False, GridBoxItemSize -> {
+                 "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                BaselinePosition -> {1, 1}], TraditionalForm]& ), 
+             InterpretationFunction -> (RowBox[{
+                StyleBox[
+                "Labeled", FontFamily -> "Bitstream Vera Sans", 
+                 FontSize -> -1 + Inherited], "[", 
+                RowBox[{#, ",", #2, ",", 
+                  StyleBox[
+                  "Right", FontFamily -> "Bitstream Vera Sans", 
+                   FontSize -> -1 + Inherited]}], "]"}]& )], 
+            TraditionalForm]], "Output", {}]}], 
+       XMLElement["dataformats", {}, {"computabledata,formatteddata"}]}]}], 
+   Typeset`aux1$$ = {True, False, {False}, True}, Typeset`aux2$$ = {
+   True, False, {False, False, False}, True}, Typeset`aux3$$ = {
+   True, False, {False}, True}, Typeset`aux4$$ = {True, False, {False}, True},
+    Typeset`asyncpods$$ = {}, Typeset`nonpods$$ = {
+    XMLElement["sources", {"count" -> "0"}, {}]}, Typeset`initdone$$ = True, 
+   Typeset`queryinfo$$ = {
+   "success" -> "true", "error" -> "false", "numpods" -> "4", "datatypes" -> 
+    "Solve", "timedout" -> "", "timedoutpods" -> "", "timing" -> "1.591", 
+    "parsetiming" -> "0.562", "parsetimedout" -> "false", "recalculate" -> "",
+     "id" -> "MSPa271f3ef7iie8hiig130000434d96bhfde34de5", "host" -> 
+    "http://www5a.wolframalpha.com", "server" -> "1", "related" -> 
+    "http://www5a.wolframalpha.com/api/v2/relatedQueries.jsp?id=\
+MSPa281f3ef7iie8hiig1300005ai5a85def6f959f&s=1", "version" -> "2.6"}, 
+   Typeset`sessioninfo$$ = {
+   "TimeZone" -> 7., 
+    "Date" -> {2015, 11, 9, 10, 32, 53.406954`8.480172783927348}, "Line" -> 
+    31, "SessionID" -> 17764901790939694095}, Typeset`showpods$$ = {1, 2, 3, 
+   4}, Typeset`failedpods$$ = {}, Typeset`chosen$$ = {}, Typeset`open$$ = 
+   False, Typeset`newq$$ = "Solve[(x-1)^2 == Sqrt[x-1],x]"}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`FormatAlphaResults[
+      Dynamic[{
+       1, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$}, {
+        Typeset`aux1$$, Typeset`aux2$$, Typeset`aux3$$, Typeset`aux4$$}, 
+        Typeset`chosen$$, Typeset`open$$, Typeset`elements$$, Typeset`q$$, 
+        Typeset`opts$$, Typeset`nonpods$$, Typeset`queryinfo$$, 
+        Typeset`sessioninfo$$, Typeset`showpods$$, Typeset`failedpods$$, 
+        Typeset`newq$$}]], StandardForm],
+    ImageSizeCache->{1234., {1636., 1643.}},
+    TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
+   DynamicModuleValues:>{},
+   Initialization:>If[
+     Not[Typeset`initdone$$], Null; 
+     WolframAlphaClient`Private`doAsyncUpdates[
+       Hold[{Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$, Typeset`pod4$$}],
+        Typeset`asyncpods$$, 
+       Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
+     Typeset`initdone$$ = True],
+   SynchronousInitialization->False],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{3.656028773557623*^9}]
+}, Open  ]]
+},
+WindowSize->{Full, Full},
+WindowMargins->{{279, Automatic}, {Automatic, 50}},
+Magnification->1.25,
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 6, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 183, 3, 35, "Input"],
+Cell[766, 27, 121, 3, 38, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[924, 35, 134, 2, 35, "Input"],
+Cell[1061, 39, 71, 1, 35, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1169, 45, 647, 19, 35, "Input"],
+Cell[1819, 66, 463, 10, 29, "Message"],
+Cell[2285, 78, 646, 21, 56, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2968, 104, 558, 16, 35, "Input"],
+Cell[3529, 122, 111, 2, 35, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3677, 129, 297, 8, 35, "Input"],
+Cell[3977, 139, 242, 6, 52, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4256, 150, 226, 7, 56, "Input"],
+Cell[4485, 159, 88, 1, 35, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4610, 165, 298, 6, 35, "Input"],
+Cell[4911, 173, 786, 18, 141, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5734, 196, 163, 4, 36, "Input"],
+Cell[5900, 202, 489, 14, 191, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6426, 221, 415, 9, 36, "Input"],
+Cell[6844, 232, 186, 3, 35, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7067, 240, 330, 9, 36, "Input"],
+Cell[7400, 251, 533, 11, 29, "Message"],
+Cell[7936, 264, 225, 7, 35, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8198, 276, 298, 8, 35, "Input"],
+Cell[8499, 286, 588, 20, 42, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9124, 311, 170, 3, 36, "Input"],
+Cell[9297, 316, 109058, 2122, 3333, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
